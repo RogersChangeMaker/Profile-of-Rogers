@@ -1,0 +1,22 @@
+{
+  "name": "rogers-profile",
+  "version": "1.0.0",
+  "description": "This is a repository that contains the portfolio built for the purpose of showcasing the profile of Rogers Wase.",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RogersChangeMaker/Profile-of-Rogers.git"
+  },
+  "author": "wase rogers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RogersChangeMaker/Profile-of-Rogers/issues"
+  },
+  "homepage": "https://github.com/RogersChangeMaker/Profile-of-Rogers#readme",
+  "devDependencies": {
+    "parcel": "^2.14.4"
+  }
+}
