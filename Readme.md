@@ -1,0 +1,1 @@
+This is a repository that contains the portfolio built for the purpose of showcasing the profile of Rogers Wase.
