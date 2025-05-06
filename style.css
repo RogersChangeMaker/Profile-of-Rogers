@@ -300,7 +300,7 @@ footer .social-icons i:hover{
 
 /* RESPONSIVENESS
  */
-@media only screen and (max-width:500px){
+@media only screen and (max-width:550px){
     .top-nav{
         display: flex;
         flex-direction: column;
@@ -314,7 +314,7 @@ footer .social-icons i:hover{
         gap: 1.2rem;
     }
     .top-nav-list li{
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 
 
@@ -363,10 +363,9 @@ footer .social-icons i:hover{
 
 
 
-
 /* RESPONSIVENESS */
 
-@media only screen and (min-width: 501px) and (max-width: 920px){
+@media only screen and (min-width: 551px) and (max-width: 1025px){
     
     .header h3{
         font-size:3.5rem;
