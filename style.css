@@ -30,7 +30,7 @@ html{
 
 /* HELPER FUNCTIONS */
 .section-padding{
-    padding:9.4rem 25.4rem ;
+    padding:5.4rem 20.4rem ;
 }
 .tertiary-heading{
     font-size: var(--heading-secondary-font);
@@ -91,7 +91,7 @@ li a{
 .header{
     text-align: center;
     background-color: var(--bg-section);
-    padding: 4.2rem 0 8.4rem;
+    padding: .2rem 0 8.4rem;
     object-fit: cover;
     object-position: top;
 }
@@ -165,13 +165,16 @@ progress::-webkit-progress-value{
 .experience{
     display: flex;
     gap: 2.5rem;
-    margin-top: 1rem;
+    margin-top: 4rem;
 }
+/* .experience-section{
+    gap: 4rem;
+} */
 
 .experience-description{
 display: flex;
 flex-direction: column;
-gap: 2rem;
+gap: 2.5rem;
 }
 .line{
    position: relative;
@@ -193,6 +196,12 @@ gap: 2rem;
 .date{
     color: var(--color-primary);
     font-weight: 500;
+}
+
+.pricing{
+    justify-content: center;
+    margin-top: 8rem;
+    color: var(--color-seconday);
 }
 
 /* SECTION CONTACT */
@@ -304,6 +313,9 @@ footer .social-icons i:hover{
     .top-nav-list{
         gap: 1.2rem;
     }
+    .top-nav-list li{
+        font-size: 1rem;
+    }
 
 
     .header{
@@ -314,6 +326,9 @@ footer .social-icons i:hover{
     width: 20rem;
     height: 20rem;
     border-radius: 50%;
+    }
+    .header h3{
+        font-size: 1.8rem;
     }
     .about-section{
         justify-content: center;
