@@ -203,6 +203,12 @@ gap: 2.5rem;
     margin-top: 8rem;
     color: var(--color-seconday);
 }
+.language{
+    justify-content: center;
+    margin-top: 6rem;
+    color: var(--color-seconday);
+
+}
 
 /* SECTION CONTACT */
 .contact-section{
