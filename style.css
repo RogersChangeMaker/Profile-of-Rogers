@@ -217,6 +217,24 @@ gap: 2.5rem;
 .pricing-text{
     line-height: 4rem;
 }
+
+.project{
+    margin-top: 6rem;
+
+    h1{
+        color: var(--color-seconday);
+    }
+}
+
+.project-img{
+    margin-top: 2rem;
+
+    img{
+        height: 43rem;
+        width: 80rem;
+        padding: 3rem;
+    }
+}
 .language{
     justify-content: center;
     margin-top: 6rem;
