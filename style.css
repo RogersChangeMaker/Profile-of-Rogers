@@ -230,9 +230,12 @@ gap: 2.5rem;
     margin-top: 2rem;
 
     img{
+        display: flex;
+        flex-direction: column;
         height: 43rem;
-        width: 80rem;
+        width: 83rem;
         padding: 3rem;
+        align-content: center;
     }
 }
 .language{
@@ -393,6 +396,16 @@ footer .social-icons i:hover{
         padding: 3.5rem;
     }
 
+    .project-img img{
+        height: 22rem;
+        width: 35rem;
+        padding: 3rem;
+        display: block;
+        margin: 0 auto;
+        transform: translateX(-20px);
+    }
+            
+
     .contact-section{
         padding: 3.5rem;
     }
@@ -443,6 +456,15 @@ footer .social-icons i:hover{
     }
     .experience-description p{
         font-size: 2rem;
+    }
+
+    .project-img img{
+        height: 42rem;
+        width: 59rem;
+        padding: 3rem;
+        display: block;
+        margin: 0 auto;
+        transform: translateX(-20px);
     }
 
     .contact-section{
