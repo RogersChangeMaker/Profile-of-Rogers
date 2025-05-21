@@ -21,6 +21,34 @@
       referrerpolicy="no-referrer"
       defer
     />
+
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script>
+      (function () {
+        emailjs.init("kVYpG4erOw5zqOr7G");
+      })();
+
+      function sendEmail(event) {
+        event.preventDefault();
+
+        emailjs
+          .sendForm("service_86xaowq", "template_3ppr3uj", "#contact-form")
+          .then(
+            function (response) {
+              alert("Message sent successfully to Rogers Wase!");
+            },
+            function (error) {
+              alert(
+                "Failed to send message. Please try again.\n" +
+                  JSON.stringify(error)
+              );
+            }
+          );
+      }
+    </script>
+
+
+
   </head>
   <body>
     <nav class="top-nav">
@@ -234,36 +262,34 @@
           <img src="./project2.PNG" alt="">
       </div>
 
-
       </div>
 
-      
-
-
-
       </section>
-      
+
 
       <section class="contact-section section-padding">
-        <h1 class="tertiary-heading">Get In Touch</h1>
-
-        <form class="contact-form">
-          <div class="input-box">
-            <label for="fullname">Name</label>
-            <input type="text" id="fullname" class="input" />
+       <div class="container">
+        <h1 class="tertiary-heading">CONTACT ME</h1>
+        <form id="contact-form" onsubmit="sendEmail(event)">
+          <label for="name">Your Name:</label><br />
+          <input type="text" name="name" required /><br />
+          
+          <label for="Contact">Phone Number:</label><br />
+          <input type="number" name="number" required /><br />
+  
+          <label for="email">Your Email:</label><br />
+          <input type="email" name="email" required /><br />
+  
+          <label for="message">Message:</label><br />
+          <textarea name="message" rows="10" required></textarea><br />
+  
+          <div class="form-buttons">
+            <input type="submit" value="Send" />
+          <input type="reset" value="Clear" />  
           </div>
-          <div class="input-box">
-            <label for="email">Email</label>
-            <input type="text" id="email" class="input" />
-          </div>
-
-          <div class="input-box">
-            <label for="message">Message</label>
-            <textarea id="message"></textarea>
-          </div>
-
-          <button type="submit" class="contact-btn">Send Message</button>
+  
         </form>
+      </div>
       </section>
     </main>
 
