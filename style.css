@@ -106,6 +106,10 @@ li a{
     font-size: var(--heading-primary-font);
     color: var(--color-seconday);
 }
+.header h1:hover{
+    font-size: var(--heading-primary-font);
+    color: var(--color-primary);
+}
 .header h3{
     font-size: var(--heading-tertiary-font);
     font-weight: 400;
