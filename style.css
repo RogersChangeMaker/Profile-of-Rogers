@@ -100,8 +100,8 @@ li a{
     height: 25rem;
     border-radius: 50%;
     object-fit: cover;
-
 }
+
 .header h1{
     font-size: var(--heading-primary-font);
     color: var(--color-seconday);
@@ -236,7 +236,9 @@ gap: 2.5rem;
         width: 83rem;
         padding: 3rem;
         align-content: center;
+        
     }
+    
 }
 .language{
     justify-content: center;
@@ -280,7 +282,7 @@ gap: 2.5rem;
   
   input[type="submit"],
   input[type="reset"] {
-    background-color: #4caf50;
+    background-color: var(--color-primary);
     color: white;
     border: none;
     margin-top: 10px;
